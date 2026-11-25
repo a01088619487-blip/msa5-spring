@@ -51,7 +51,7 @@ public class RequestMappingController {
     // @GetMapping("/segment/1/my")
     // public String test(){
     //     return "Test";
-    // }
+    // }..
     // 위의 /segment/{id}/{name} 패턴에도 해당하는 주소지만,
     // 고정 경로가 더 구체적이라서 /api/segment/1/my 요청은 이 메서드가 우선 처리함
     // 그래서 id=1, name=my 조합은 segment() 메서드로 들어가지 못함
