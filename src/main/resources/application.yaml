@@ -1,3 +1,8 @@
 spring:
   application:
     name: msa5-spring
+    # 상세 디폴트가 꺼져잇는 거 같아서 상세메시지를 콘솔에 충력할수 있도록 할거임
+  web:
+    error:
+      include-stacktrace: always
+      include-message: always
